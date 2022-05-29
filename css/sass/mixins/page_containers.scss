@@ -1,0 +1,15 @@
+@mixin header {
+	#wrapp {
+		#header {
+			@content;
+		}
+	}
+}
+
+@mixin body_wrapp {
+	#wrapp {
+		#body_wrapp {
+			@content;
+		}
+	}
+}

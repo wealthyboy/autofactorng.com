@@ -1,0 +1,15 @@
+{
+    "require": {
+        "illuminate/database": "^7.22",
+        "illuminate/pagination": "^7.22",
+        "illuminate/events": "^7.22",
+        "illuminate/http": "^7.22"
+    },
+    "autoload":{
+        "classmap" :[
+           "models"
+        ]
+            
+        
+    }
+}

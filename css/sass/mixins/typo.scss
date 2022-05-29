@@ -1,0 +1,14 @@
+@mixin font($weight: normal, $family: $primary-font-family, $color: inherit) {
+	font: {
+		weight: $weight;
+		family: $family;
+	}
+	color: $color;
+}
+
+@mixin center_vertical {
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

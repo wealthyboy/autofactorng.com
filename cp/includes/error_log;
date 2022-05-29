@@ -1,0 +1,30 @@
+[04-Aug-2020 08:35:57 America/Chicago] PHP Warning:  require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/autofactorng/stage.autofactorng.com/init/init.php on line 2
+[04-Aug-2020 08:35:57 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/php54/lib/php;') in /home/autofactorng/stage.autofactorng.com/init/init.php on line 2
+[04-Aug-2020 08:37:51 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Request' not found in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php on line 8
+[04-Aug-2020 08:41:23 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Request' not found in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php on line 8
+[04-Aug-2020 08:41:26 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Request' not found in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php on line 8
+[04-Aug-2020 08:44:57 America/Chicago] PHP Warning:  require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/autofactorng/stage.autofactorng.com/init/init.php on line 2
+[04-Aug-2020 08:44:57 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/php54/lib/php;') in /home/autofactorng/stage.autofactorng.com/init/init.php on line 2
+[04-Aug-2020 08:45:15 America/Chicago] PHP Warning:  require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/autofactorng/stage.autofactorng.com/init/init.php on line 2
+[04-Aug-2020 08:45:15 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/php54/lib/php;') in /home/autofactorng/stage.autofactorng.com/init/init.php on line 2
+[04-Aug-2020 08:46:47 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Request' not found in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php on line 7
+[04-Aug-2020 08:46:58 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Request' not found in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php on line 7
+[04-Aug-2020 10:50:08 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Redirect' not found in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/autofactorng/stage.autofactorng.com/cp/includes/add_funds.php on line 15

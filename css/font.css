@@ -1,0 +1,39 @@
+@font-face {
+	font-family: Raleway;
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Russo One';
+	src: url('../fonts/Russo_One.ttf');
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family: Junction;
+	src: url('../fonts/Junction.otf');
+}
+
+@font-face {
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeue.ttf');
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../fonts/glyphicons-halflings-regular.svg##{glyphicons_halflingsregular') format('svg');
+}

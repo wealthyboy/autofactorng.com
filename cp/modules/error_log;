@@ -1,0 +1,35 @@
+[17-Sep-2020 05:34:24 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' in /home/autofactorng/public_html/vendor/illuminate/database/Connection.php:458
+Stack trace:
+#0 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(458): PDO->prepare('insert into `sh...')
+#1 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(664): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `sh...', Array)
+#2 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(631): Illuminate\Database\Connection->runQueryCallback('insert into `sh...', Array, Object(Closure))
+#3 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(465): Illuminate\Database\Connection->run('insert into `sh...', Array, Object(Closure))
+#4 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(417): Illuminate\Database\Connection->statement('insert into `sh...', Array)
+#5 /home/autofactorng/public_html/vendor in /home/autofactorng/public_html/vendor/illuminate/database/Connection.php on line 671
+[17-Sep-2020 06:26:15 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' in /home/autofactorng/public_html/vendor/illuminate/database/Connection.php:458
+Stack trace:
+#0 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(458): PDO->prepare('insert into `st...')
+#1 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(664): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `st...', Array)
+#2 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(631): Illuminate\Database\Connection->runQueryCallback('insert into `st...', Array, Object(Closure))
+#3 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(465): Illuminate\Database\Connection->run('insert into `st...', Array, Object(Closure))
+#4 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(417): Illuminate\Database\Connection->statement('insert into `st...', Array)
+#5 /home/autofactorng/public_html/vendor in /home/autofactorng/public_html/vendor/illuminate/database/Connection.php on line 671
+[17-Sep-2020 06:26:48 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list' in /home/autofactorng/public_html/vendor/illuminate/database/Connection.php:458
+Stack trace:
+#0 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(458): PDO->prepare('insert into `st...')
+#1 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(664): Illuminate\Database\Connection->Illuminate\Database\{closure}('insert into `st...', Array)
+#2 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(631): Illuminate\Database\Connection->runQueryCallback('insert into `st...', Array, Object(Closure))
+#3 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(465): Illuminate\Database\Connection->run('insert into `st...', Array, Object(Closure))
+#4 /home/autofactorng/public_html/vendor/illuminate/database/Connection.php(417): Illuminate\Database\Connection->statement('insert into `st...', Array)
+#5 /home/autofactorng/public_html/vendor in /home/autofactorng/public_html/vendor/illuminate/database/Connection.php on line 671
+[14-Feb-2021 08:17:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/autofactorng/public_html/cp/modules/add_servicing.php:104
+Stack trace:
+#0 /home/autofactorng/public_html/cp/modules/add_servicing.php(87): upload_product(14, 'Oil Filter for ...', 'Honda', 'Civic', '45000', 'Description', 'Description', '2013', '2019', 'criuse.jpg', 'face-art.jpg', 'family1.png', 'yty')
+#1 {main}
+  thrown in /home/autofactorng/public_html/cp/modules/add_servicing.php on line 104
+[14-Feb-2021 08:18:36 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'ServicingParts' not found in /home/autofactorng/public_html/cp/modules/add_servicing.php:105
+Stack trace:
+#0 /home/autofactorng/public_html/cp/modules/add_servicing.php(87): upload_product(14, 'Oil Filter for ...', 'Honda', 'Civic', '45000', 'Description', 'Description', '2013', '2019', 'criuse.jpg', 'face-art.jpg', 'family1.png', 'yty')
+#1 {main}
+  thrown in /home/autofactorng/public_html/cp/modules/add_servicing.php on line 105
+[14-Feb-2021 08:20:09 America/Chicago] PHP Notice:  Undefined variable: alt_text in /home/autofactorng/public_html/cp/modules/add_servicing.php on line 120

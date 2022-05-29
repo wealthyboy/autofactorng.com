@@ -1,0 +1,574 @@
+@import 'partials/variables';
+@import 'mixins/media';
+@import 'mixins/page_containers';
+@import 'mixins/typo';
+
+
+//min 240, max 360
+@include responsive(240px, 1024px) {
+	/*.unslider-nav ol {
+	  //display: none; //slider dots
+	}*/
+	#wrapp {
+		#header {
+			width: 100%;
+			
+			#top_header_wrapp {
+				width: 100%;
+				//border: 3px solid yellow;
+
+				#cart_wrapp, #header_login_wrapp {
+					float: none;
+					margin: 5px auto;
+					position: static;
+				}
+
+				#header_logo_wrapp {
+					float: none;
+					width: initial;
+					height: 40px;
+					left: 0px;
+					//border: 1px solid white;
+
+					img {
+						width: 200px;
+					}
+				}
+			}
+
+			#ribbon {
+				height: 70px;
+
+				#left, #right {
+					float: none;
+					width: 100%;
+					height: 50%;
+				}
+			}
+
+			#nav_bar {
+				display: none;
+			}
+		}
+
+		#body_wrapp {
+			width: 100%;
+
+			#car_search_wrapp ul li {
+				width: 45%;
+			}
+
+			#thankyou_wrapp {
+				width: 100%;
+			}
+
+			#nav_menu {
+				display: block;
+			}
+
+			#gtb_filter {
+
+				#wheel_tyre_filter, #battery_filter, #grille_guard_filter {
+					width: 100%;
+					display: block;
+					position: relative;
+
+					select, input {
+						width: 100%;
+					}
+				}
+
+				#tyre_brand_filter, #battery_brand_filter {
+					display: block;
+					position: relative;
+					width: 100%;
+					top: 0px;
+					left: 0px;
+				}
+			}
+
+			#no_product {
+				width: 100%;
+			}
+
+			#car_filter_wrapp {
+				display: none;
+			}
+
+			#article {
+				display: none;
+			}	
+
+			#main {
+				width: 100%;
+				left: 0px;
+
+				#banner_box {
+					height: auto;
+				}
+
+				#car_filter_wrapp2 {
+					display: block;
+					padding: 0px;
+					min-height: 50px;
+					background-color: #EBEBEB;
+
+					select {
+						width: 25%;
+						height: 30px;
+						margin: 10px 1px;
+						border-radius: 3px;
+						background-color: #EBEBEB;
+						color: #666;
+						outline-style: none;
+					}
+
+					button[type=submit] {
+						width: 15%;
+						height: 30px;
+						margin: 10px 0px;
+						background-color: grey;
+						border: 0px;
+						color: white;
+
+						&:disabled {
+							color: black;
+						}
+					}
+				}
+
+				#content {
+					.topseller_prod {
+						width: 60%;
+						margin: 10px 20%;
+					}
+				}
+
+				#other {
+					display: none;
+				}
+
+				#other2 {
+					display: block;
+
+					#delivery_info, #newsletter_wrapp {
+						float: none;
+						width: 90%;
+						margin: 20px auto;
+					}
+
+					#delivery_info {
+						p {
+							//border: 1px solid black;
+
+							img {
+								// /width: auto;
+								height: 45px;
+							}
+						}
+					}
+
+					#service_pack, #tow_truck {
+						display: block;
+						//background-color: $color-accent;
+						width: 90%;
+						height: 230px;
+						margin: 20px auto;
+
+						img {
+							width: 100%;
+							height: 100%;
+						}
+					}
+
+					.unslider-nav ol {
+						//display: block;
+
+						li {
+							padding: 2px;
+						  border: 2px solid $header-background-color;
+
+						  &.unslider-active {
+						  	background: $color-accent;
+						  }
+					  }
+					}
+				}
+			}
+
+			#spares_servicing_filter, #car_filter_landing_pg {
+				select {
+					width: 20%;
+				}
+
+				button[type=submit] {
+					width: 40px;
+				}
+			}
+
+			.product_wrapp {
+
+				#shipping_form, #order_history_wrapp, #track_order_form {
+					width: 100%;
+					float: none;
+					margin: 10px;
+				}
+
+				.product_box {
+					width: 80%;
+				}
+
+				.product_desc_wrapp {
+					.product_desc_img, .product_info {
+						float: none;
+						width: 90%;
+						border: 0px;
+					}
+
+					.product_info {
+						.price_addtocart {
+							min-height: 100px;
+							.price_wrapp, .addtocart, .glyphs {
+								margin: 0px 10px 0px;
+							}
+						}
+
+						.product_desc {
+							.phy_feature {
+								img {
+									position: static;
+									display: block;
+									margin: 10px 0px 0px;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.page_header {
+				font-size: 14pt;
+			}
+
+			.page_num {
+				//border: 1px solid black;
+				width: 100%;
+				padding: 10px 0px;
+			}
+
+			#checkout_wrapp {
+				#login_checkout, #payment_checkout, 
+				#shipping_checkout, #cart_checkout {
+					float: none;
+					width: 100%;
+					margin: 10px 0px;
+				}
+
+				#cart_checkout {
+
+					.filled_cart_prod {
+						form {
+							display: block;
+							width: initial;
+						}
+
+						.filled_cart_prod_name, .filled_cart_prod_price {
+							position: static;
+							width: 100%;
+							display: block;
+							//border: 1px solid green;
+							height: initial;
+							top: initial;
+							transform: translateY(0%);
+							margin: 5px;
+						}
+					}
+				}
+			}
+
+			#signup_wrapp {
+				border: 0px;
+				width: 100%;
+				margin: 0px;
+			}
+
+			#footer_pages_wrapp {
+				//border: 1px solid red;
+				margin: 0px;
+
+				#contact_form {
+					//border: 1px solid black;
+					margin: -20px;
+					padding: 5px;
+
+					.contactus_field {
+
+						input[type=text] {
+							width: 100%;
+						}
+
+						textarea {
+							min-width: 100%;
+						}
+					}
+				}
+
+				p {
+					select {
+						width: 100%;
+					}
+				}
+			}
+
+			#call_tech_wrapp, #call_tow_truck_wrapp {
+				#call_tech_form, #call_tow_truck_form {
+					border: 1px solid #eee;
+
+					input, select {
+						width: 100%;
+					}
+
+					#response_box {
+						position: initial;
+						margin-top: 30px;
+						//border: 1px solid black;
+					}
+				}
+			}
+		}// body_wrapp
+
+		#footer {
+			padding: 0px 20px;
+
+			& > div {
+				width: 100%;
+				float: none;
+				margin: 20px 0px;
+				//border: 1px solid red;
+			}
+
+			#sub_footer4 {
+				width: 100%;
+			}
+		}
+	}// wrapp
+}// small devices
+
+@include responsive(375px, 435px) { //453, try 480
+	@include body_wrapp {
+		#main {
+			#content {
+				.topseller_prod {
+					float: none;
+					width: 55%;
+					margin: 10px auto;
+				}
+			}
+
+			#other2 {
+				#delivery_info, #newsletter_wrapp {
+					float: none;
+					//width: 70%;
+					margin: 20px auto;
+				}
+
+				#delivery_info {
+					p {
+						//border: 1px solid black;
+
+						span {
+							width: 75%;
+						}
+
+						img {
+							// /width: auto;
+							height: 60px;
+							left: 20px;
+						}
+					}
+				}
+			}
+		}
+
+		.product_wrapp {
+
+			.product_box {
+				width: 67%;
+			}
+		}
+	}
+}
+
+@include responsive(435px, 480px) {
+	@include body_wrapp {
+		#main {
+			#content {
+
+				.topseller_prod {
+					float: left;
+					width: 45%;
+					margin: 10px;
+				}
+			}
+
+			#other2 {
+				#delivery_info, #newsletter_wrapp {
+					width: 70%;
+				}
+			}
+		}
+
+		.product_wrapp {
+
+			.product_box {
+				width: 45%;
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+@include responsive(480px, 640px) {
+	@include body_wrapp {
+		#main {
+
+			#content {
+
+				.topseller_prod {
+					width: 45%;
+					margin: 10px;
+				}
+			}
+
+			#other2 {
+				#delivery_info, #newsletter_wrapp {
+					width: 60%;
+				}
+
+				#delivery_info {
+					
+					p{
+
+						img {
+							height: 60px;
+							width: 15%;
+							left: 10px;
+						}
+					}
+				}
+
+				#service_pack, #tow_truck {
+					width: 60%;
+				}
+			}
+		}
+
+		.product_wrapp {
+
+			.product_box {
+				width: 45%;
+				margin-bottom: 20px;
+			}
+		}
+
+		#checkout_wrapp {
+
+
+			#cart_checkout {
+				.filled_cart_prod {
+					padding: 10px;
+
+					.filled_cart_prod_name {
+						margin: 10px 10px;
+					}
+
+					.filled_cart_prod_price {
+						//border: 1px solid black;
+						margin: 10px 10px;
+
+						& > span {
+							.filled_cart_final_price_title {
+								width: 75%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@include responsive(640px, 1024px) {
+	@include body_wrapp {
+		#main {
+			#content {
+				.topseller_prod {
+					float: left;
+					width: 30%;
+					margin: 10px;
+				}
+			}
+
+			#other2 {
+				#delivery_info {
+					//float: left;
+					//width: 40%;
+					margin: 10px auto;
+					padding: 10px;
+				}
+
+				#delivery_info, #newsletter_wrapp, #service_pack, #tow_truck {
+					width: 60%;
+				}
+
+				#newsletter_wrapp {
+					//width: 40%;
+					//float: left;
+					margin: 10px auto;
+					padding: 35px 10px;
+				}
+			}
+		}
+
+		.product_wrapp {
+			#shipping_form, #order_history_wrapp, #track_order_form {
+					width: 45%;
+					display: inline-block;
+				}
+
+			.product_box {
+				display: inline-block;
+				width: 30%;
+				margin: 0px 5px 20px;
+			}
+		}
+
+		.product_wrapp {
+			.product_desc_wrapp {
+				.product_desc_img {
+					width: 48%;
+					height: 100%;
+					margin-left: 10px;
+					float: left;
+					border: 1px solid #eee;
+				}
+
+				.product_info {
+					margin-left: 10px;
+					width: 48%;
+					height: 100%;
+					float: left;
+
+					.product_desc {
+						.phy_feature {
+							img {
+								
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

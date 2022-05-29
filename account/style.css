@@ -1,0 +1,52 @@
+#reset-box {
+	/*width: 700px;*/
+	min-height: 300px;
+	margin-top: 50px;
+	-webkit-box-shadow: 2px 2px 26px -8px rgba(0,0,0,0.68);
+	-moz-box-shadow: 2px 2px 26px -8px rgba(0,0,0,0.68);
+	box-shadow: 2px 2px 26px -8px rgba(0,0,0,0.68);
+	font-family: verdana;
+	font-size: 10.5pt;
+	padding: 10px;
+}
+
+ a {
+		color: black;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #F15A2B;
+		text-decoration: none;
+	}
+
+.error {
+	color: red;
+	font-weight: bolder;
+}
+
+.pass {
+	color: green;
+	font-weight: bolder;
+}
+
+.rcv_btn {
+	background-color: #F15A2B;
+	color: white;
+	border-radius: 4px;
+	border: 0px;
+	padding: 10px;
+	cursor: pointer;
+	font-weight: bolder;
+	width: 20%;
+}
+
+.rcv_btn:hover {
+	background-color: #ff5722;
+}
+
+@media screen and (max-width: 425px) {
+	#reset-box {
+		margin: 0px;
+	}
+}

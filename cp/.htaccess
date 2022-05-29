@@ -1,0 +1,6 @@
+
+
+AuthType Basic
+AuthName "cp"
+AuthUserFile "/home/autofactorng/.htpasswds/public_html/cp/passwd"
+require valid-user

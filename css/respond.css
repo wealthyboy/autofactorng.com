@@ -1,0 +1,459 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  
+   #wrapp #body_wrapp #main #car_filter_wrapp2 {
+         display: block;
+        padding: 0px;
+        min-height: 50px;
+        background-color: #EBEBEB
+    }
+    #wrapp #body_wrapp #main #car_filter_wrapp2 select {
+        width: 100%;
+        height: 30px;
+        margin: 10px 1px;
+        border-radius: 3px;
+        background-color: #EBEBEB;
+        color: #666;
+        outline-style: none
+    }
+    #wrapp #body_wrapp #main #car_filter_wrapp2 button[type=submit] {
+        width: 100%;
+        height: 30px;
+        margin: 10px 0px;
+        background-color: grey;
+        border: 0px;
+        color: white
+    }
+    #wrapp #body_wrapp #main #car_filter_wrapp2 button[type=submit]:disabled {
+        color: black
+    }
+    
+    .mb-60{
+       margin-bottom: 60px;
+    }
+
+
+    .top-190{
+        top: 190px !important;
+    }
+        
+    .top-245{
+        top: 245px !important;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+    
+    .mb-60{
+       margin-bottom: 60px;
+    }
+
+
+    .top-190{
+        top: 190px !important;
+    }
+        
+    .top-245{
+        top: 245px !important;
+    }
+  
+   #wrapp #body_wrapp #main #car_filter_wrapp2 {
+         display: block;
+        padding: 0px;
+        min-height: 50px;
+        background-color: #EBEBEB
+    }
+    #wrapp #body_wrapp #main #car_filter_wrapp2 select {
+        width: 25%;
+        height: 30px;
+        margin: 10px 1px;
+        border-radius: 3px;
+        background-color: #EBEBEB;
+        color: #666;
+        outline-style: none
+    }
+    #wrapp #body_wrapp #main #car_filter_wrapp2 button[type=submit] {
+        width: 20%;
+        height: 30px;
+        margin: 10px 0px;
+        background-color: grey;
+        border: 0px;
+        color: white
+    }
+    #wrapp #body_wrapp #main #car_filter_wrapp2 button[type=submit]:disabled {
+        color: black
+    }
+
+}
+
+
+@media screen and (min-width: 240px) and (max-width: 1024px) {
+    #wrapp #header {
+        width: 100%
+    }
+    #wrapp #header #top_header_wrapp {
+        width: 100%
+    }
+    #wrapp #header #top_header_wrapp #cart_wrapp,
+    #wrapp #header #top_header_wrapp #header_login_wrapp {
+        float: none;
+        margin: 5px auto;
+        position: static
+    }
+    #wrapp #header #top_header_wrapp #header_logo_wrapp {
+        float: none;
+        width: initial;
+        height: 40px;
+        left: 0px
+    }
+    #wrapp #header #top_header_wrapp #header_logo_wrapp img {
+        width: 200px
+    }
+    #wrapp #header #ribbon {
+        height: 70px
+    }
+    #wrapp #header #ribbon #left,
+    #wrapp #header #ribbon #right {
+        float: none;
+        width: 100%;
+        height: 50%
+    }
+    #wrapp #header #nav_bar {
+        display: none
+    }
+    #wrapp #body_wrapp {
+        width: 100%
+    }
+    #wrapp #body_wrapp #car_search_wrapp ul li {
+        width: 45%
+    }
+    #wrapp #body_wrapp #thankyou_wrapp {
+        width: 100%
+    }
+    #wrapp #body_wrapp #nav_menu {
+        display: block
+    }
+    #wrapp #body_wrapp #gtb_filter #wheel_tyre_filter,
+    #wrapp #body_wrapp #gtb_filter #battery_filter,
+    #wrapp #body_wrapp #gtb_filter #grille_guard_filter {
+        width: 100%;
+        display: block;
+        position: relative
+    }
+    #wrapp #body_wrapp #gtb_filter #wheel_tyre_filter select,
+    #wrapp #body_wrapp #gtb_filter #wheel_tyre_filter input,
+    #wrapp #body_wrapp #gtb_filter #battery_filter select,
+    #wrapp #body_wrapp #gtb_filter #battery_filter input,
+    #wrapp #body_wrapp #gtb_filter #grille_guard_filter select,
+    #wrapp #body_wrapp #gtb_filter #grille_guard_filter input {
+        width: 100%
+    }
+    #wrapp #body_wrapp #gtb_filter #tyre_brand_filter,
+    #wrapp #body_wrapp #gtb_filter #battery_brand_filter {
+        display: block;
+        position: relative;
+        width: 100%;
+        top: 0px;
+        left: 0px
+    }
+    #wrapp #body_wrapp #no_product {
+        width: 100%
+    }
+    #wrapp #body_wrapp #car_filter_wrapp {
+        display: none;
+    }
+    #wrapp #body_wrapp #article {
+        display: none
+    }
+    #wrapp #body_wrapp #main {
+        width: 100%;
+        left: 0px
+    }
+    #wrapp #body_wrapp #main #banner_box {
+        height: auto
+    }
+  
+   
+    #wrapp #body_wrapp #main #content .topseller_prod {
+        width: 60%;
+        margin: 10px 20%
+    }
+    #wrapp #body_wrapp #main #other {
+        display: none
+    }
+    #wrapp #body_wrapp #main #other2 {
+        display: block
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info,
+    #wrapp #body_wrapp #main #other2 #newsletter_wrapp {
+        float: none;
+        width: 90%;
+        margin: 20px auto
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info p img {
+        height: 45px
+    }
+    #wrapp #body_wrapp #main #other2 #service_pack,
+    #wrapp #body_wrapp #main #other2 #tow_truck {
+        display: block;
+        width: 90%;
+        height: 230px;
+        margin: 20px auto
+    }
+    #wrapp #body_wrapp #main #other2 #service_pack img,
+    #wrapp #body_wrapp #main #other2 #tow_truck img {
+        width: 100%;
+        height: 100%
+    }
+    #wrapp #body_wrapp #main #other2 .unslider-nav ol li {
+        padding: 2px;
+        border: 2px solid #363636
+    }
+    #wrapp #body_wrapp #main #other2 .unslider-nav ol li.unslider-active {
+        background: #f44c25
+    }
+    #wrapp #body_wrapp #spares_servicing_filter select,
+    #wrapp #body_wrapp #car_filter_landing_pg select {
+        width: 20%
+    }
+    #wrapp #body_wrapp #spares_servicing_filter button[type=submit],
+    #wrapp #body_wrapp #car_filter_landing_pg button[type=submit] {
+        width: 40px
+    }
+    #wrapp #body_wrapp .product_wrapp #shipping_form,
+    #wrapp #body_wrapp .product_wrapp #order_history_wrapp,
+    #wrapp #body_wrapp .product_wrapp #track_order_form {
+        width: 100%;
+        float: none;
+        margin: 10px
+    }
+    #wrapp #body_wrapp .product_wrapp .product_box {
+        width: 80%
+    }
+    #wrapp #body_wrapp .product_wrapp .product_desc_wrapp .product_desc_img,
+    #wrapp #body_wrapp .product_wrapp .product_desc_wrapp .product_info {
+        float: none;
+        width: 90%;
+        border: 0px
+    }
+    #wrapp #body_wrapp .product_wrapp .product_desc_wrapp .product_info .price_addtocart {
+        min-height: 100px
+    }
+    #wrapp #body_wrapp .product_wrapp .product_desc_wrapp .product_info .price_addtocart .price_wrapp,
+    #wrapp #body_wrapp .product_wrapp .product_desc_wrapp .product_info .price_addtocart .addtocart,
+    #wrapp #body_wrapp .product_wrapp .product_desc_wrapp .product_info .price_addtocart .glyphs {
+        margin: 0px 10px 0px
+    }
+    #wrapp #body_wrapp .product_wrapp .product_desc_wrapp .product_info .product_desc .phy_feature img {
+        position: static;
+        display: block;
+        margin: 10px 0px 0px
+    }
+    #wrapp #body_wrapp .page_header {
+        font-size: 14pt
+    }
+    #wrapp #body_wrapp .page_num {
+        width: 100%;
+        padding: 10px 0px
+    }
+    #wrapp #body_wrapp #checkout_wrapp #login_checkout,
+    #wrapp #body_wrapp #checkout_wrapp #payment_checkout,
+    #wrapp #body_wrapp #checkout_wrapp #shipping_checkout,
+    #wrapp #body_wrapp #checkout_wrapp #cart_checkout {
+        float: none;
+        width: 100%;
+        margin: 10px 0px
+    }
+    #wrapp #body_wrapp #checkout_wrapp #cart_checkout .filled_cart_prod form {
+        display: block;
+        width: initial
+    }
+    #wrapp #body_wrapp #checkout_wrapp #cart_checkout .filled_cart_prod .filled_cart_prod_name,
+    #wrapp #body_wrapp #checkout_wrapp #cart_checkout .filled_cart_prod .filled_cart_prod_price {
+        position: static;
+        width: 100%;
+        display: block;
+        height: initial;
+        top: initial;
+        transform: translateY(0%);
+        margin: 5px
+    }
+    #wrapp #body_wrapp #signup_wrapp {
+        border: 0px;
+        width: 100%;
+        margin: 0px
+    }
+    #wrapp #body_wrapp #footer_pages_wrapp {
+        margin: 0px
+    }
+    #wrapp #body_wrapp #footer_pages_wrapp #contact_form {
+        margin: -20px;
+        padding: 5px
+    }
+    #wrapp #body_wrapp #footer_pages_wrapp #contact_form .contactus_field input[type=text] {
+        width: 100%
+    }
+    #wrapp #body_wrapp #footer_pages_wrapp #contact_form .contactus_field textarea {
+        min-width: 100%
+    }
+    #wrapp #body_wrapp #footer_pages_wrapp p select {
+        width: 100%
+    }
+    #wrapp #body_wrapp #call_tech_wrapp #call_tech_form,
+    #wrapp #body_wrapp #call_tech_wrapp #call_tow_truck_form,
+    #wrapp #body_wrapp #call_tow_truck_wrapp #call_tech_form,
+    #wrapp #body_wrapp #call_tow_truck_wrapp #call_tow_truck_form {
+        border: 1px solid #eee
+    }
+    #wrapp #body_wrapp #call_tech_wrapp #call_tech_form input,
+    #wrapp #body_wrapp #call_tech_wrapp #call_tech_form select,
+    #wrapp #body_wrapp #call_tech_wrapp #call_tow_truck_form input,
+    #wrapp #body_wrapp #call_tech_wrapp #call_tow_truck_form select,
+    #wrapp #body_wrapp #call_tow_truck_wrapp #call_tech_form input,
+    #wrapp #body_wrapp #call_tow_truck_wrapp #call_tech_form select,
+    #wrapp #body_wrapp #call_tow_truck_wrapp #call_tow_truck_form input,
+    #wrapp #body_wrapp #call_tow_truck_wrapp #call_tow_truck_form select {
+        width: 100%
+    }
+    #wrapp #body_wrapp #call_tech_wrapp #call_tech_form #response_box,
+    #wrapp #body_wrapp #call_tech_wrapp #call_tow_truck_form #response_box,
+    #wrapp #body_wrapp #call_tow_truck_wrapp #call_tech_form #response_box,
+    #wrapp #body_wrapp #call_tow_truck_wrapp #call_tow_truck_form #response_box {
+        position: initial;
+        margin-top: 30px
+    }
+    #wrapp #footer {
+        padding: 0px 20px
+    }
+    #wrapp #footer>div {
+        width: 100%;
+        float: none;
+        margin: 20px 0px
+    }
+    #wrapp #footer #sub_footer4 {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 435px) {
+    #wrapp #body_wrapp #main #content .topseller_prod {
+        float: none;
+        width: 55%;
+        margin: 10px auto
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info,
+    #wrapp #body_wrapp #main #other2 #newsletter_wrapp {
+        float: none;
+        margin: 20px auto
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info p span {
+        width: 75%
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info p img {
+        height: 60px;
+        left: 20px
+    }
+    #wrapp #body_wrapp .product_wrapp .product_box {
+        width: 67%
+    }
+}
+
+@media screen and (min-width: 435px) and (max-width: 480px) {
+    #wrapp #body_wrapp #main #content .topseller_prod {
+        float: left;
+        width: 45%;
+        margin: 10px
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info,
+    #wrapp #body_wrapp #main #other2 #newsletter_wrapp {
+        width: 70%
+    }
+    #wrapp #body_wrapp .product_wrapp .product_box {
+        width: 45%;
+        margin-bottom: 20px
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 640px) {
+    #wrapp #body_wrapp #main #content .topseller_prod {
+        width: 45%;
+        margin: 10px
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info,
+    #wrapp #body_wrapp #main #other2 #newsletter_wrapp {
+        width: 60%
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info p img {
+        height: 60px;
+        width: 15%;
+        left: 10px
+    }
+    #wrapp #body_wrapp #main #other2 #service_pack,
+    #wrapp #body_wrapp #main #other2 #tow_truck {
+        width: 60%
+    }
+    #wrapp #body_wrapp .product_wrapp .product_box {
+        width: 45%;
+        margin-bottom: 20px
+    }
+    #wrapp #body_wrapp #checkout_wrapp #cart_checkout .filled_cart_prod {
+        padding: 10px
+    }
+    #wrapp #body_wrapp #checkout_wrapp #cart_checkout .filled_cart_prod .filled_cart_prod_name {
+        margin: 10px 10px
+    }
+    #wrapp #body_wrapp #checkout_wrapp #cart_checkout .filled_cart_prod .filled_cart_prod_price {
+        margin: 10px 10px
+    }
+    #wrapp #body_wrapp #checkout_wrapp #cart_checkout .filled_cart_prod .filled_cart_prod_price>span .filled_cart_final_price_title {
+        width: 75%
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    #wrapp #body_wrapp #main #content .topseller_prod {
+        float: left;
+        width: 30%;
+        margin: 10px
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info {
+        margin: 10px auto;
+        padding: 10px
+    }
+    #wrapp #body_wrapp #main #other2 #delivery_info,
+    #wrapp #body_wrapp #main #other2 #newsletter_wrapp,
+    #wrapp #body_wrapp #main #other2 #service_pack,
+    #wrapp #body_wrapp #main #other2 #tow_truck {
+        width: 60%
+    }
+    #wrapp #body_wrapp #main #other2 #newsletter_wrapp {
+        margin: 10px auto;
+        padding: 35px 10px
+    }
+    #wrapp #body_wrapp .product_wrapp #shipping_form,
+    #wrapp #body_wrapp .product_wrapp #order_history_wrapp,
+    #wrapp #body_wrapp .product_wrapp #track_order_form {
+        width: 45%;
+        display: inline-block
+    }
+    #wrapp #body_wrapp .product_wrapp .product_box {
+        display: inline-block;
+        width: 30%;
+        margin: 0px 5px 20px
+    }
+    #wrapp #body_wrapp .product_wrapp .product_desc_wrapp .product_desc_img {
+        width: 48%;
+        height: 100%;
+        margin-left: 10px;
+        float: left;
+        border: 1px solid #eee
+    }
+    #wrapp #body_wrapp .product_wrapp .product_desc_wrapp .product_info {
+        margin-left: 10px;
+        width: 48%;
+        height: 100%;
+        float: left
+    }
+}
+
+
