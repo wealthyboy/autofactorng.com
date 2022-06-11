@@ -38,7 +38,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.+) $1.php [L,QSA]
 
-
+CREATE DATABASE autofactorng;
 
 
 #RewriteRule ^cybersale$ "http\:\/\/autofactorng\.com\/products\.php\?cat_id\=10" [R=301,L]
