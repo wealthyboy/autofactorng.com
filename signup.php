@@ -24,7 +24,7 @@
 	require $_SERVER["DOCUMENT_ROOT"].'/modules/phpmailer/PHPMailerAutoload.php';
 	require_once('classes/Mailchimp.php');    // You may have to modify the path based on your own configuration.
        $api_key = "null";
-       $list_id = "a07acc0523";
+       $list_id = "";
 	
 	
 	$display_form = true;
